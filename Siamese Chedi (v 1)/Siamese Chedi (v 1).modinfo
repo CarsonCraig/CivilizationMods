@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="728015fc-c7c9-4992-b124-e52c093aec1c" version="1">
+  <Properties>
+    <Name>Siamese Chedi</Name>
+    <Teaser>Adds the Siamese Chedi as a new unique building.</Teaser>
+    <Description>Adds the Siamese Chedi as a new unique building. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>ryanjames, calcul8or, davey_henninger, Viregel</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="3048DF321C50AA931EDC27AF6E86872F" import="1">Assets/Atlases/LannaAlpha128.dds</File>
+    <File md5="6AD28FA7FD6805CC350E5FEF10A301D5" import="1">Assets/Atlases/LannaAlpha16.dds</File>
+    <File md5="B971A011FCB3E0733965E57EE22A791F" import="1">Assets/Atlases/LannaAlpha24.dds</File>
+    <File md5="4537F58384C3B280F1FFC75FB3A7CA17" import="1">Assets/Atlases/LannaAlpha256.dds</File>
+    <File md5="28B65E11D8C46472DD1F1B443AF7C7B4" import="1">Assets/Atlases/LannaAlpha32.dds</File>
+    <File md5="4956151232835C00B3F71CDEBFA2CACC" import="1">Assets/Atlases/LannaAlpha45.dds</File>
+    <File md5="B3283A16CF83B4D41B68E3F8B4451A73" import="1">Assets/Atlases/LannaAlpha48.dds</File>
+    <File md5="B61A860CA848ED5047DC1C60FC37BEF9" import="1">Assets/Atlases/LannaAlpha64.dds</File>
+    <File md5="3837FB510E1E51288ADE2F71DC69573C" import="1">Assets/Atlases/LannaAlpha80.dds</File>
+    <File md5="3D70C6DBDA5D69C7E3D25C7768AF3300" import="1">Assets/Atlases/LannaDOM.dds</File>
+    <File md5="2CB9FF1D5ED2935D7E3D04A7AF0367FA" import="1">Assets/Atlases/LannaIconAtlas128.dds</File>
+    <File md5="99D5941608812F88070729488E510B7F" import="1">Assets/Atlases/LannaIconAtlas256.dds</File>
+    <File md5="F7AB6713D9260F022663B02542EAE160" import="1">Assets/Atlases/LannaIconAtlas32.dds</File>
+    <File md5="0F1F560E60C1D40C034E8EB199850C8A" import="1">Assets/Atlases/LannaIconAtlas45.dds</File>
+    <File md5="AF6106F800671FEEB3E8F130DB0A0173" import="1">Assets/Atlases/LannaIconAtlas64.dds</File>
+    <File md5="70FF819F82551D326748C0FB845B992C" import="1">Assets/Atlases/LannaIconAtlas80.dds</File>
+    <File md5="976C02B3EFF89BEDF9F84B14CC0BEC90" import="1">Assets/Atlases/lannamap.dds</File>
+    <File md5="89BB1FEE9CB58E08A5824F758F8F791A" import="1">Assets/Atlases/Mengraiscreen.dds</File>
+    <File md5="25B79153FCBE3A343326950136FA53F0" import="1">Assets/Atlases/unitflag128.dds</File>
+    <File md5="F9216949D68AFDACC36C70C25CD9A0DE" import="1">Assets/Atlases/unitflag256.dds</File>
+    <File md5="31373C45251A1FC3837A3E741DCA8F48" import="1">Assets/Atlases/unitflag32.dds</File>
+    <File md5="34EE05E1F067CE7E17E43089512C9BFE" import="1">Assets/Atlases/unitflag45.dds</File>
+    <File md5="5A05CDC6C78DC7D2B83AC7BF909065C7" import="1">Assets/Atlases/unitflag64.dds</File>
+    <File md5="4E22E46BC18454BD676DA2E045696835" import="1">Assets/Atlases/unitflag80.dds</File>
+    <File md5="75A7CFEBB6F06478EFDA2AF48C5B4E19" import="0">XML/Lanna_building.xml</File>
+    <File md5="4123B06F6650FAB0FC1BFAD0C305F0F0" import="0">XML/Lanna_icon_atlases.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Lanna_building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lanna_icon_atlases.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

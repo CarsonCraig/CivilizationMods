@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="08dcd170-1e88-4672-8afb-536821ab21b2" version="1">
+  <Properties>
+    <Name>Mayan Obsidian Warrior</Name>
+    <Teaser>Adds the Mayan Obsidian Warrior as a new unique unit.</Teaser>
+    <Description>Adds the Mayan Obsidian Warrior as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="8F92D26A3AC2D95BF376E3A2FBD87D90" import="1">Maya/3mayasword128.dds</File>
+    <File md5="29BE0F8990D722E461078A8D0638021B" import="1">Maya/3mayasword256.dds</File>
+    <File md5="9CFB77CAD6890AD548CF8B29B1F816CD" import="1">Maya/3mayasword45.dds</File>
+    <File md5="7ACA098C133407CEDE1C58AC011A65FA" import="1">Maya/3mayasword64.dds</File>
+    <File md5="020F9D9FF5AB4993C85E6EA353324E0D" import="1">Maya/3mayasword80.dds</File>
+    <File md5="E0AA9092F60675F6F50907E53D1571C3" import="0">Maya/4UC_MAYA.sql</File>
+    <File md5="13B8005661C40EC6AA5A1363D52BF14C" import="1">Maya/IconObsidi32.dds</File>
+    <File md5="F73E93ABEB3959C63088746810F513F6" import="1">Maya/IconObsidiSV.dds</File>
+    <File md5="075A4C2B702365BB7A5A521B64989F36" import="0">Maya/Mayaswordsman.xml</File>
+    <File md5="208946EC450749F902A71A2DBAE6FA86" import="1">Maya/Swordsman_Maya.dds</File>
+    <File md5="551EFA6E53C28D851BD293A7CE70DD19" import="1">Maya/Swordsman_Maya.fxsxml</File>
+    <File md5="16AF194606A3091487332D7A3944D1F5" import="1">Maya/Swordsman_Maya.gr2</File>
+    <File md5="DF62BD1FE5F28F8F54856121B541690B" import="1">Maya/Swordsman_Maya_gloss.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Maya/Mayaswordsman.xml</UpdateDatabase>
+      <UpdateDatabase>Maya/4UC_MAYA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

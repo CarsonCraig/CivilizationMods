@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7eaa92d5-769b-4348-8ae1-cf187b8c7ff4" version="1">
+  <Properties>
+    <Name>Korean Changdeokgung</Name>
+    <Teaser>Adds the Korean Changdeokgung as a new unique building.</Teaser>
+    <Description>Adds the Korean Changdeokgung as a new unique building. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="2FB26C2D06E491276EDFF4FAE16B7834" import="0">Korea2/3Grandpalace.xml</File>
+    <File md5="86FDD47DE4010959BAC49E280B408B3D" import="1">Korea2/3grandpalace128.dds</File>
+    <File md5="1A4E70A2A2BBBE0541A0BFD043D18CCD" import="1">Korea2/3grandpalace256.dds</File>
+    <File md5="9E0FB05072D70F70E92FC3001363DCF8" import="1">Korea2/3grandpalace45.dds</File>
+    <File md5="C786B426680296C869A5CDFDF42E0413" import="1">Korea2/3grandpalace64.dds</File>
+    <File md5="31FFD909E60F45057F7E94F49BEEC378" import="0">Korea2/4UC_KOREA.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Korea2/3Grandpalace.xml</UpdateDatabase>
+      <UpdateDatabase>Korea2/4UC_KOREA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/27/2010 4:15:53 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_TANK</Class>
+			<Type>UNIT_3_IS2</Type>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<Combat>64</Combat>
+			<Cost>325</Cost>
+			<FaithCost>700</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_3_IS2</Description>
+			<Civilopedia>TXT_KEY_UNIT_3_IS2_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_3_IS2_STRATEGY</Strategy>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_3_IS2</UnitArtInfo>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<UnitFlagAtlas>3_IS2_ATLAS_FLAG</UnitFlagAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>3_IS2_ATLAS</IconAtlas>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+	
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<PromotionType>PROMOTION_AMBUSH_1</PromotionType>
+		</Row>
+		
+	</Unit_FreePromotions>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_3_IS2</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+	<Row>
+		<UnitType>UNIT_3_IS2</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+	</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_3_IS2">
+			<Text>IS-2</Text>
+		</Row>
+			<Row Tag="TXT_KEY_UNIT_3_IS2_STRATEGY">
+			<Text>Cheaper replacement for the Tank. Only Russia may build it. Although it is weaker than the Tank it replaces, it can be manufactured faster and has a combat bonus against other armored units.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3_IS2_TEXT">
+			<Text>The IS tank family was a series of heavy tanks developed as a successor to the KV-series by the Soviet Union during World War II. The heavy tank was designed with thick armour to counter the German 88 mm guns, and carried a main gun that was capable of defeating the German Tiger and Panther tanks. It was mainly a breakthrough tank, firing a heavy high-explosive shell that was useful against entrenchments and bunkers. The IS-2 was put into service in April 1944, and was used as a spearhead in the Battle of Berlin by the Red Army in the final stage of the war.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
+			<UnitClassType>UNITCLASS_TANK</UnitClassType>
+			<UnitType>UNIT_3_IS2</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_3_IS2</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>3UC_sv_IS2.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3_IS2_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3UC_USSRStalinAtlas_256.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_IS2_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3UC_USSRStalinAtlas_128.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_IS2_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>3UC_USSRStalinAtlas_80.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_IS2_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3UC_USSRStalinAtlas_64.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_IS2_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3UC_USSRStalinAtlas_45.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_IS2_ATLAS_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>3UC_IS2UnitFLag_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_3_IS2">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+</GameData>

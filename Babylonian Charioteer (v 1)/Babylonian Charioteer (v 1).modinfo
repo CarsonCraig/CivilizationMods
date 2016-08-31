@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d8502248-0f82-4a9c-b125-f34e4b7c3c9c" version="1">
+  <Properties>
+    <Name>Babylonian Charioteer</Name>
+    <Teaser>Adds the Babylonian Charioteer as a new unique unit.</Teaser>
+    <Description>Adds the Babylonian Charioteer as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6404D18E3865665EB020FF9B937874F7" import="1">Babylon4/3babylonchariot128.dds</File>
+    <File md5="B3B926BB7C531152C7F83F6F1B0922C1" import="1">Babylon4/3babylonchariot256.dds</File>
+    <File md5="DF2F898180FD0DBB25C4E948377664C2" import="1">Babylon4/3babylonchariot45.dds</File>
+    <File md5="220226E1DA16EED8842BE88CE5FD00E9" import="1">Babylon4/3babylonchariot64.dds</File>
+    <File md5="42695410160E550B356BC9E52A667B97" import="1">Babylon4/3babylonchariot80.dds</File>
+    <File md5="DC7A1423BDAAD7E7C7B37848638B6912" import="0">Babylon4/4UC_BABYLON.sql</File>
+    <File md5="A1377B6D32B78001F904A27193D4F922" import="1">Babylon4/Chariot_Babylon.blend</File>
+    <File md5="B095580EFC2C39EB6FACF70972432DCE" import="1">Babylon4/Chariot_Babylon.dds</File>
+    <File md5="B76AD6968116CA2EA90F680D34C6133B" import="1">Babylon4/Chariot_Babylon.fxsxml</File>
+    <File md5="3BEEB0CEE3039745638681AE4A20B7E2" import="1">Babylon4/Chariot_Babylon.gr2</File>
+    <File md5="EC6F36970C6BB6C6637C92949DA4C896" import="1">Babylon4/Chariot_Babylon_gloss.dds</File>
+    <File md5="2A86C790EEC1EE15A4B5F515921DF4CB" import="0">Babylon4/HittiteWarchariot.xml</File>
+    <File md5="7D51643444616C675A9D6FA6B0F13B10" import="1">Babylon4/Icon4Chariot32.dds</File>
+    <File md5="35BF2DB8FDB6471D00CAA2E3768D825B" import="1">Babylon4/IconCHARIOT4SV.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Babylon4/HittiteWarchariot.xml</UpdateDatabase>
+      <UpdateDatabase>Babylon4/4UC_BABYLON.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

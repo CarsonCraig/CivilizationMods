@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a2707c14-da76-4218-b67c-d463a194a2ca" version="1">
+  <Properties>
+    <Name>American Frontiersman</Name>
+    <Teaser>Adds the American Frontiersman as a new unique unit.</Teaser>
+    <Description>Adds the American Frontiersman as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>calcul8or</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="9544B80B82D7FD2445BFA5337A660F0C" import="1">Assets/Atlas/KY_IconAtlas128.dds</File>
+    <File md5="1211C89A5D9A651EC252EB4DCD1D73F4" import="1">Assets/Atlas/KY_IconAtlas16.dds</File>
+    <File md5="8DAFB0D5B7DE3E1D8A9B0D7B35939F82" import="1">Assets/Atlas/KY_IconAtlas24.dds</File>
+    <File md5="DD0352F77A288D70D623BD842A5BF86F" import="1">Assets/Atlas/KY_IconAtlas256.dds</File>
+    <File md5="3F19AAF2D4756C97E64AC4B544BAA852" import="1">Assets/Atlas/KY_IconAtlas32.dds</File>
+    <File md5="3956F08E513A3015D5DAEC07C2F569F4" import="1">Assets/Atlas/KY_IconAtlas45.dds</File>
+    <File md5="09BA7C711524466647488D07B3276F48" import="1">Assets/Atlas/KY_IconAtlas48.dds</File>
+    <File md5="85C7EE5EAB3BA4FF0362C149CB200422" import="1">Assets/Atlas/KY_IconAtlas64.dds</File>
+    <File md5="36FC8B54F06529D7A1F2B8BB6A137F81" import="1">Assets/Atlas/KY_IconAtlas80.dds</File>
+    <File md5="85D18332EC2AA85BA350E26420522463" import="1">Assets/KY_DOM.dds</File>
+    <File md5="BA090B75084226050BCC9B087BCE7708" import="1">Assets/SV_KY_scout.dds</File>
+    <File md5="5706BF34E2C4E028663AE1AD53339227" import="1">Assets/Unit/black_4x4.dds</File>
+    <File md5="592152F6263EBD3D02964BE7D9BE212A" import="1">Assets/Unit/u_canadian_voyageur.dds</File>
+    <File md5="D76EE027F98D5FC0E93E4293D9460317" import="1">Assets/Unit/u_canadian_voyageur.fxsxml</File>
+    <File md5="14386331CFB7972C74ADECD51A8AE54F" import="1">Assets/Unit/u_canadian_voyageur.gr2</File>
+    <File md5="6CD6A0DB374B2A198DA011FB869611D4" import="0">Code/KY_IconAtlas.xml</File>
+    <File md5="23447E97573FE1FF3520237A2286AEC7" import="0">Code/KY_Units.xml</File>
+    <File md5="2B8361E436407AE8709F869A342BA35A" import="0">Code/KY_Unit_Defines.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/KY_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Unit_Defines.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

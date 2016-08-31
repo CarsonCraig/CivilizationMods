@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c795f566-705c-41e5-b799-23a8b4e1a57b" version="1">
+  <Properties>
+    <Name>English Textile Mill</Name>
+    <Teaser>Adds the English Textile Mill as a new unique building.</Teaser>
+    <Description>Adds the English Textile Mill as a new unique building. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="1BC4FBDB7ABFBC97BDA8D779FD45E392" import="1">England2/3uc_textile128.dds</File>
+    <File md5="1D3302A36922D80121CA4320ED5FA725" import="1">England2/3uc_textile256.dds</File>
+    <File md5="BD740B4B3C4D0D9232995E7FBF1CF2D9" import="1">England2/3uc_textile45.dds</File>
+    <File md5="192760AA3491C9B8739D268797625596" import="1">England2/3uc_textile64.dds</File>
+    <File md5="C8CE5959086F18831390845FB15EA14C" import="0">England2/3UC_textilemill.xml</File>
+    <File md5="4AD03428A36268E0E61A03DFA8A40E90" import="0">England2/4UC_ENGLAND.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>England2/3UC_textilemill.xml</UpdateDatabase>
+      <UpdateDatabase>England2/4UC_ENGLAND.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

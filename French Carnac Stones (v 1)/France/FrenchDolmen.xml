@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/29/2013 3:00:44 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3UC_DOLMEN">
+				<Text>Carnac Stones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_DOLMEN_HELP">
+			<Text>Increases the [ICON_CULTURE] Culture of a city, increasing the rate of border growth. Only the French may build them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_DOLMEN_STRATEGY">
+			<Text>The Carnac Stones are a French unique building that yields a large amount of [ICON_CULTURE] Culture, double the amount of a Monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_DOLMEN_TEXT">
+			<Text>The Carnac stones are an exceptionally dense collection of megalithic sites around the village of Carnac, in Brittany, consisting of alignments, dolmens, tumuli and single menhirs. More than 3,000 prehistoric standing stones were hewn from local rock and erected by the pre/proto-Celtic people of Brittany, and are the largest such collection in the world.  The stones were erected at some stage during the Neolithic period, probably around 3300 BC, but some may date to as old as 4500 BC. [NEWLINE][NEWLINE]There are several dolmens scattered around the area. These dolmens are generally considered to have been tombs; however, the acidic soil of Brittany has eroded away the bones. They were constructed with several large stones supporting a capstone, then buried under a mound of earth. In many cases, the mound is no longer present, sometimes due to archeological excavation, and only the large stones remain, in various states of ruin.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3UC_DOLMEN_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>4frenchdolmen256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3UC_DOLMEN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>4frenchdolmen128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3UC_DOLMEN_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>4frenchdolmen64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3UC_DOLMEN_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>4frenchdolmen45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

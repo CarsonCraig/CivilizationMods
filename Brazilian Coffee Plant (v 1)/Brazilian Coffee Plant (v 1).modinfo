@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e739d771-b83c-47b5-9960-8dd4e489244c" version="1">
+  <Properties>
+    <Name>Brazilian Coffee Plant</Name>
+    <Teaser>Adds the Brazilian Coffee Plant as a new unique building.</Teaser>
+    <Description>Adds the Brazilian Coffee Plant as a new unique building.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>FramedArchitecture, whoward</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="13a82948-60f7-46dd-b71c-f6f0b7ef2786" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="4B376A5B2465E539918F7F086E01B13A" import="1">Brazil/Art/UB-FontIcons.dds</File>
+    <File md5="80FCA7A8933F9B199FE5DC3794056C5F" import="1">Brazil/Art/UB-FontIcons.ggxml</File>
+    <File md5="3543ADBF2A7184359545BC379918B542" import="1">Brazil/Art/UBAtlas128.dds</File>
+    <File md5="491A1874F6B569DED1978E1A8317F098" import="1">Brazil/Art/UBAtlas256.dds</File>
+    <File md5="25B29BAAE936443286783319502315D0" import="1">Brazil/Art/UBAtlas45.dds</File>
+    <File md5="59404569049E7156DD4042EA6B05CB9F" import="1">Brazil/Art/UBAtlas64.dds</File>
+    <File md5="7C7BD27ED5936333EC088EDF2F8FED5A" import="1">Brazil/Art/UBAtlas80.dds</File>
+    <File md5="355695FA64F2006DC1EF063B50B39594" import="0">Brazil/Brazil_Coffee.sql</File>
+    <File md5="EEF003C096236259346DAE936637A0A8" import="0">Brazil/CoffeePlant_Cleanup.sql</File>
+    <File md5="F512E4A94E2B8D56E39B126BC8F2CE0A" import="0">Brazil/CoffeePlant_IconAtlas.sql</File>
+    <File md5="287BA62DDA469B1C41F72180908FBF03" import="0">Brazil/CoffeePlant_Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Brazil/Brazil_Coffee.sql</UpdateDatabase>
+      <UpdateDatabase>Brazil/CoffeePlant_Cleanup.sql</UpdateDatabase>
+      <UpdateDatabase>Brazil/CoffeePlant_IconAtlas.sql</UpdateDatabase>
+      <UpdateDatabase>Brazil/CoffeePlant_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
