@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/28/2012 12:24:02 AM -->
+<GameData>
+	<Language_en_US>
+
+		<!--Sweden Bollhuset-->
+		<Row Tag="TXT_KEY_BUILDING_FA_BOLLHUSET">
+			<Text>Bollhuset</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_BOLLHUSET_HELP">
+			<Text>
+				+10% [ICON_CULTURE] Culture in this City. City must have a Colosseum.
+				[NEWLINE]Swedish replacement for the [COLOR_POSITIVE_TEXT]Theater[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_BOLLHUSET2_HELP">
+			<Text>
+				25% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the [ICON_TOURISM] Tourism output of the city. City must have a Colosseum.
+				[NEWLINE]Swedish replacement for the [COLOR_POSITIVE_TEXT]Zoo[ENDCOLOR].
+			</Text>
+		</Row>
+
+	</Language_en_US>
+	
+	<!--DB CLEANUP-->
+	<DeleteMissingReferences table="Units" column="Type"/>
+	<DeleteMissingReferences table="Buildings" column="Type"/>
+	<DeleteMissingReferences table="Improvements" column="Type"/>
+	<DeleteMissingReferences table="Builds" column="Type"/>
+</GameData>
