@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d73b86b9-fea0-410c-9f14-d33cebc01876" version="1">
+  <Properties>
+    <Name>Incan Chasqui</Name>
+    <Teaser>Adds the Incan Chasqui as a new unique unit.</Teaser>
+    <Description>Adds the Incan Chasqui as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">ICONS/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">ICONS/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">ICONS/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">ICONS/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">ICONS/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">ICONS/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">ICONS/IconAtlas256.dds</File>
+    <File md5="D58F84FD178BBBFE1C71E6E0E524DD3E" import="0">Inca/3UC_INCA.sql</File>
+    <File md5="927E682F10C1AD9D0AD203CB5102CCA3" import="0">Inca/Chasqui.xml</File>
+    <File md5="FEA15BD1C6F232CCAA8BEA8AC9BBA9A1" import="1">Inca/Chasqui_Flag.dds</File>
+    <File md5="435FC8164D206C343CE030BF94E6EEA9" import="1">Inca/Chasqui_SV.dds</File>
+    <File md5="F714627CD0EE61127F181557C9AA105D" import="1">Inca/IncaScout.dds</File>
+    <File md5="132572BE1F6B473DDDB75C5AA5515051" import="1">Inca/IncaScout.fbx</File>
+    <File md5="F9F8577583C5E8652620C874197EB6D4" import="1">Inca/IncaScout.fxsxml</File>
+    <File md5="BE755540FCD57A49DD7B501BCE1EB3F1" import="1">Inca/IncaScout.gr2</File>
+    <File md5="775D14F9C2C705ACA94C54405BB3D993" import="1">Inca/IncaScout_sref.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ICONS/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Inca/Chasqui.xml</UpdateDatabase>
+      <UpdateDatabase>Inca/3UC_INCA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

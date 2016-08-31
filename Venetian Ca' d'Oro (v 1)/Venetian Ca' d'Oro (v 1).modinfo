@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4776f708-494b-4227-acd5-45fc91c7eba5" version="1">
+  <Properties>
+    <Name>Venetian Ca' d'Oro</Name>
+    <Teaser>Adds the Venetian Ca' d'Oro as a new unique building.</Teaser>
+    <Description>Adds the Venetian Ca' d'Oro as a new unique building.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>Kevin Kidder</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B4BE4C21BADAB81FF42C3BE879357848" import="1">ART/CadOroIcon128.dds</File>
+    <File md5="14C30789DAA0E866AD516CA1F5F76ED4" import="1">ART/CadOroIcon256.dds</File>
+    <File md5="56DFE89DD409013DB71F798643FC9AED" import="1">ART/CadOroIcon45.dds</File>
+    <File md5="70D5BCC85BEA2E19E00A07A0694B1F67" import="1">ART/CadOroIcon64.dds</File>
+    <File md5="286DFFADA456467B088828AFA2A49384" import="0">XML/CadOroIcon.xml</File>
+    <File md5="A20434F8FED4A97105F146142EAD626F" import="0">XML/VenetianCadOro.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/CadOroIcon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/VenetianCadOro.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

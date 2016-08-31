@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a6ff2e5d-40df-419e-b49d-76d25b9aaff0" version="1">
+  <Properties>
+    <Name>Egyptian Flax</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds Egyptian Flax as a new unique improvement.</Teaser>
+    <Description>Adds Egyptian Flax as a new unique improvement.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F0E873523FAF5E0D3A2983B36EEBA9AA" import="0">Egypt/Egypt_Flax.xml</File>
+    <File md5="8ED2731C37800D5ECA4E96AB88EFF268" import="1">Egypt/EGYPT_flax256.dds</File>
+    <File md5="F44FEF29855DFF504B64C53DD8261490" import="1">Egypt/EGYPT_flax256GOLD.dds</File>
+    <File md5="F668E4D9416F393D4BA16F92A0BF39C1" import="1">Egypt/EGYPT_flax45.dds</File>
+    <File md5="02068A611348327D27641E3CB3E4B4E2" import="1">Egypt/EGYPT_flax64.dds</File>
+    <File md5="B7AF43C3DC57C6475D5CAA7CF8406C26" import="1">Egypt/EGYPT_flax64GOLD.dds</File>
+    <File md5="6776B65C9A9E0AC62BFE329629A9CE29" import="1">Egypt/flax_diff.dds</File>
+    <File md5="B16B35B08444DDBF6D62DD15598B3839" import="1">Egypt/flax_sref.dds</File>
+    <File md5="EFF84F10F96B7CA32ED6FBA2CDB64BD3" import="1">Egypt/hb_plantation_ind_flax.fxsxml</File>
+    <File md5="5969B672714D4367DB4ACC4821CAC24A" import="1">Egypt/hb_plantation_ind_flax.gr2</File>
+    <File md5="AB701548004FD6DB334ACF78519472AC" import="1">Egypt/hb_plantation_mid_flax.fxsxml</File>
+    <File md5="56D043AC0128CD0C2AD7A870AAC86ED7" import="1">Egypt/hb_plantation_mid_flax.gr2</File>
+    <File md5="E9A93DEED3E99598A36AB186D9FE7703" import="1">Egypt/plantation_ind_flax.fxsxml</File>
+    <File md5="9E058BEA063EA92FE3FAFB3062B1CD82" import="1">Egypt/plantation_ind_flax.gr2</File>
+    <File md5="F443FA615611BE085A644D9DA414FB7A" import="1">Egypt/plantation_mid_flax.fxsxml</File>
+    <File md5="364309FF6A987EFDE285E0900569E378" import="1">Egypt/plantation_mid_flax.gr2</File>
+    <File md5="592CFAB2C712470F0FF79643E320305B" import="1">Egypt/pl_flax_diff.dds</File>
+    <File md5="75AFB529E396F8C7F65370141388FC59" import="1">Egypt/pl_plantation_ind_flax.fxsxml</File>
+    <File md5="D2BF02E7720BB95835FA86EEBB61FE08" import="1">Egypt/pl_plantation_ind_flax.gr2</File>
+    <File md5="E1BC2CFCC7D8BF3CA7DAA864C024F075" import="1">Egypt/pl_plantation_mid_flax.fxsxml</File>
+    <File md5="ADFF4D272BACEED93A769819F6EEB4CA" import="1">Egypt/pl_plantation_mid_flax.gr2</File>
+    <File md5="E07D5BEBBFA9A485227BACC88961F72E" import="1">Egypt/resource_flax.fxsxml</File>
+    <File md5="1472967E39E6AC73BB28F3E120B5B5EB" import="1">Egypt/resource_flax.gr2</File>
+    <File md5="C9F189C38668A86E1DDFACF46A7CF430" import="1">Egypt/SV_Flax.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Egypt/Egypt_Flax.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

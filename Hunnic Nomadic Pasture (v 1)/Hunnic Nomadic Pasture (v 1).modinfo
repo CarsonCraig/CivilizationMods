@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="58235d68-bfe9-421e-ba39-40cccb106ee6" version="1">
+  <Properties>
+    <Name>Hunnic Nomadic Pasture</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Hunnic Nomadic Pasture as a new unique improvement.</Teaser>
+    <Description>Adds the Hunnic Nomadic Pasture as a new unique improvement.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="BFC11A66E61B9F61C56AF7CC9D68A7FC" import="1">Eki/EkiAtlas256.dds</File>
+    <File md5="EB3405D2311A01260972BC3AAD77D3E5" import="1">Eki/EkiAtlas64.dds</File>
+    <File md5="EEF38CDDD9DDC407B5335322643F698B" import="1">Eki/EkiBuildIcon45.dds</File>
+    <File md5="B6461D162EDBB9852CF4B38A3FB50963" import="1">Eki/EkiBuildIcon64.dds</File>
+    <File md5="47FB3F65377B800642FEB24FC4F55CE9" import="1">Eki/eki_built.fxsxml</File>
+    <File md5="1426392A0960092D26DD4A6BDA759D80" import="1">Eki/eki_hb_diff.dds</File>
+    <File md5="F8E60D1E6EE1C1FC199059CCAC2BE77A" import="1">Eki/eki_hb_grnd.dds</File>
+    <File md5="CCBA6A5964F44EBCEB347B3DFECE86BC" import="1">Eki/eki_hb_grnd_h.dds</File>
+    <File md5="1BD0EA1560EB2FD93D50C43495ED3A87" import="1">Eki/eki_hb_sref.dds</File>
+    <File md5="1EF3D9C094A60FF3F7D77B8BEA8A826E" import="1">Eki/hb_eki.gr2</File>
+    <File md5="7A631A40502222460D4325FCEBC24BD2" import="0">Eki/IconsEki.xml</File>
+    <File md5="421D8EC85D214B59D7EA22596D9A86CE" import="0">Eki/NomadicPasture.xml</File>
+    <File md5="B6458764DD97CCD5FFFC44A67FD39506" import="0">Eki/NomadicPastureDefine.sql</File>
+    <File md5="1B9FE710B39BF5CD4D86CBCC75BAFC08" import="1">Eki/SV_Eki.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Eki/NomadicPasture.xml</UpdateDatabase>
+      <UpdateDatabase>Eki/IconsEki.xml</UpdateDatabase>
+      <UpdateDatabase>Eki/NomadicPastureDefine.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2fb542bd-d70f-46af-8fce-f0e9b5e143df" version="1">
+  <Properties>
+    <Name>Spanish Galleon</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Spanish Galleon as a new unique unit.</Teaser>
+    <Description>Adds the Spanish Galleon as a new unique unit.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D14502CB562DE7AC83C43F5E2B3A0A7E" import="1">Spain/galleon128.dds</File>
+    <File md5="FD444EBE16A648803D3BDC921B65C4F3" import="1">Spain/galleon256.dds</File>
+    <File md5="41000F096A31319F4A1F61BD18DC6473" import="1">Spain/galleon45.dds</File>
+    <File md5="4C61E32FEF1EED437E70C946E9C5336F" import="1">Spain/galleon64.dds</File>
+    <File md5="9EBF115CD53C7CCAD8E18ECF13B58BA0" import="1">Spain/galleon80.dds</File>
+    <File md5="C59BC59C7BFA88648BC84F9652169C64" import="0">Spain/Galleon.xml</File>
+    <File md5="8ABF50384244F69354DB6C05A20D84C9" import="1">Spain/IconGalleon32.dds</File>
+    <File md5="F173B50B7E4F37777D87F011CC860C55" import="1">Spain/IconGalleonSV.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Spain/Galleon.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

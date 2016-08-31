@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/26/2015 4:54:39 PM -->
+<GameData>
+
+
+	-<Buildings>
+
+
+		-<Row>
+
+			<Type>BUILDING_RTZOMPANTLI</Type>
+
+			<Description>TXT_KEY_BUILDING_RTZOMPANTLI</Description>
+
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_RTZOMPANTLI_TEXT</Civilopedia>
+
+			<Strategy>TXT_KEY_BUILDING_RTZOMPANTLI_STRATEGY</Strategy>
+
+			<Help>TXT_KEY_BUILDING_RTZOMPANTLI_HELP</Help>
+
+			<GoldMaintenance>1</GoldMaintenance>
+
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+
+			<Cost>120</Cost>
+
+			<FaithCost>0</FaithCost>
+
+			<HurryCostModifier>25</HurryCostModifier>
+
+			<MinAreaSize>-1</MinAreaSize>
+
+			<ConquestProb>66</ConquestProb>
+
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+
+			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
+
+			<ArtDefineTag>ART_DEF_BUILDING_GARDEN</ArtDefineTag>
+
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+
+			<PortraitIndex>2</PortraitIndex>
+
+			<IconAtlas>RTOLTEC_ICON_ATLAS</IconAtlas>
+
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+
+			<GreatWorkCount>2</GreatWorkCount>
+
+		</Row>
+
+	</Buildings>
+
+
+	-<Building_Flavors>
+
+
+		-<Row>
+
+			<BuildingType>BUILDING_RTZOMPANTLI</BuildingType>
+
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+
+			<Flavor>40</Flavor>
+
+		</Row>
+
+		-<Row>
+
+			<BuildingType>BUILDING_RTZOMPANTLI</BuildingType>
+
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+
+			<Flavor>5</Flavor>
+
+		</Row>
+
+	</Building_Flavors>
+
+	-<Building_DomainFreeExperiencePerGreatWork>
+
+
+		-<Row>
+
+			<BuildingType>BUILDING_RTZOMPANTLI</BuildingType>
+
+			<DomainType>DOMAIN_LAND</DomainType>
+
+			<Experience>3</Experience>
+
+		</Row>
+
+
+	</Building_DomainFreeExperiencePerGreatWork>
+
+	-<Language_en_US>
+
+
+		-<Row Tag="TXT_KEY_BUILDING_RTZOMPANTLI">
+
+			<Text>Tzompantli</Text>
+
+		</Row>
+
+
+		-<Row Tag="TXT_KEY_CIV5_BUILDINGS_RTZOMPANTLI_TEXT">
+
+
+			-<Text>Tzompantli were a type of wooden rack and architectual style that displayed skulls. At Tula, numerous Tzompantli have been discovered, as well as broad platforms that depicted rows upon rows of stylised skulls. Chichen Itza, a site startling similar to Tula also has numerous similar structures.</Text>
+
+		</Row>
+
+
+		-<Row Tag="TXT_KEY_BUILDING_RTZOMPANTLI_STRATEGY">
+
+			<Text>Tzompantli are, unlike the garden, buildable in all cities. As a result, Aztec cities have slightly greater potency for great person production. They even provide a little XP to land units, giving Aztec armies a little extra edge in the battlefield!</Text>
+
+		</Row>
+
+
+		-<Row Tag="TXT_KEY_BUILDING_RTZOMPANTLI_HELP">
+
+			<Text>Replaces the garden; unlocked at theology. +25% [ICON_GREAT_PEOPLE] Great People generation in this City. Does not require fresh water. Contains two slots for great works of [ICON_GREAT_ARTIST] art which yield 3 XP each for land units when filled.</Text>
+
+		</Row>
+
+	</Language_en_US>
+
+	<Civilization_BuildingClassOverrides>
+
+		<Row>
+
+			<CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+
+			<BuildingType>BUILDING_RTZOMPANTLI</BuildingType>
+
+		</Row>
+
+	</Civilization_BuildingClassOverrides>
+  
+</GameData>

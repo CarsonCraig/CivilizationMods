@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8a6ee0d4-be29-40ab-a4db-5e6bfaf9dc49" version="1">
+  <Properties>
+    <Name>Dutch East Indiaman</Name>
+    <Teaser>Adds the Dutch East Indiaman as a new unique unit.</Teaser>
+    <Description>Adds the Dutch East Indiaman as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6A3C694B7328444D026ED0447CE01FA4" import="0">DutchIndiaman/3EastIndiaman.xml</File>
+    <File md5="928B6BDF273E0B0855F84166B6EA5822" import="0">DutchIndiaman/4UC_DUTCH.sql</File>
+    <File md5="BAA7D18E27CE5CC1DE3DB1272F1D73C3" import="1">DutchIndiaman/dutchindiaman32.dds</File>
+    <File md5="62136BE25AEDFBFC3A5C66BE9ACE84B3" import="1">DutchIndiaman/dutchindiamanSV.dds</File>
+    <File md5="7DE326D53EBF58E7FE7361517EEF27CC" import="1">DutchIndiaman/eastindiamn128.dds</File>
+    <File md5="FEE7B714850E4BB67B2FF07FEDEDF545" import="1">DutchIndiaman/eastindiamn256.dds</File>
+    <File md5="C2FAE5FCB978833B64DEC08A8A16883C" import="1">DutchIndiaman/eastindiamn45.dds</File>
+    <File md5="57000FF2BF74AC203528AE16F0A708E3" import="1">DutchIndiaman/eastindiamn64.dds</File>
+    <File md5="3CDD0361CE3022FC419D137E2D29DE6E" import="1">DutchIndiaman/eastindiamn80.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>DutchIndiaman/3EastIndiaman.xml</UpdateDatabase>
+      <UpdateDatabase>DutchIndiaman/4UC_DUTCH.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

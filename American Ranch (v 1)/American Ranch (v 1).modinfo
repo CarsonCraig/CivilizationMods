@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="41212894-7214-49d4-8277-1063c1137db4" version="1">
+  <Properties>
+    <Name>American Ranch</Name>
+    <Teaser>Adds the American Ranch as a new unique building.</Teaser>
+    <Description>Adds the American Ranch as a new unique building. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="9D47386EF6E2B522208DA4A8767245FF" import="1">America2/3uc_ranch128.dds</File>
+    <File md5="349B2F47A593B7A23340A39312179A39" import="1">America2/3uc_ranch256.dds</File>
+    <File md5="97AF7531EBC0C98F0BAF9CAD6ECDEC68" import="1">America2/3uc_ranch45.dds</File>
+    <File md5="C60F5FA2B70A805869E6EF15BEAF382E" import="1">America2/3uc_ranch64.dds</File>
+    <File md5="0BD7FFD3F89410CD887A69B298F85B68" import="0">America2/3uc_Ranch.xml</File>
+    <File md5="089E28A86BE06AEDE89B6A772F161BF4" import="0">America2/4UC_AMERICA.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>America2/3uc_Ranch.xml</UpdateDatabase>
+      <UpdateDatabase>America2/4UC_AMERICA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

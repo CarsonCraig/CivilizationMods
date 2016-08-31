@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1be80570-660c-4014-a0da-35464f713e04" version="1">
+  <Properties>
+    <Name>Venetian Doge's Palace</Name>
+    <Teaser>Adds the Venetian Doge's Palace as a new national wonder.</Teaser>
+    <Description>Adds the Venetian Doge's Palace as a new national wonder. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="BB52FCAB339FBFABEABA78959EDD41E8" import="0">Venice/4UC_VENICE.sql</File>
+    <File md5="7CA76A51A2F1D287F4912D73F52A2F35" import="1">Venice/5dogepalace128.dds</File>
+    <File md5="2E9D075DABEDA9ABD157F20F55AAB4D2" import="1">Venice/5dogepalace256.dds</File>
+    <File md5="B8F4863C55E5C54C0F5C79F9D41B1452" import="1">Venice/5dogepalace45.dds</File>
+    <File md5="97DF3770C6CC34A246141DA31FAB4E3F" import="1">Venice/5dogepalace64.dds</File>
+    <File md5="C99A16688A94AC9502269BCBBF4ED29D" import="0">Venice/DogePalace.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Venice/DogePalace.xml</UpdateDatabase>
+      <UpdateDatabase>Venice/4UC_VENICE.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

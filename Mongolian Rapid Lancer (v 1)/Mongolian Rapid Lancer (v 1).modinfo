@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e3d427ef-e9f7-49d1-8bf0-6efa1a7c583c" version="1">
+  <Properties>
+    <Name>Mongolian Rapid Lancer</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Mongolian Rapid Lancer as a new unique unit.</Teaser>
+    <Description>Adds the Mongolian Rapid Lancer as a new unique unit.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="45C12A9D400BA5FDF8ACA2DB3D3E5399" import="1">Mongolia/IconGolde32.dds</File>
+    <File md5="1D2940126D6320D638075531AFFAD1F1" import="1">Mongolia/IconGoldeSV.dds</File>
+    <File md5="585325DE7F091CA73A9F540304581D6E" import="1">Mongolia/Knight_Mongol.dds</File>
+    <File md5="15ACE682FCEF4CBBEA90BC128C8E7402" import="1">Mongolia/Knight_Mongol.fxsxml</File>
+    <File md5="68074C80399C0FD35ABFAA0CABB2A498" import="1">Mongolia/Knight_Mongol.gr2</File>
+    <File md5="470748FD57DFC4F39525C8BAAACC0F00" import="1">Mongolia/Knight_Mongol_gloss.dds</File>
+    <File md5="07F13EC6ADB47D55028E314336679C7B" import="1">Mongolia/Knight_Mongol_Horse.dds</File>
+    <File md5="85C9ACBA861B6850FCCA12CF82E0AD50" import="1">Mongolia/Knight_Mongol_Horse_gloss.dds</File>
+    <File md5="95C6BC73989334D279BF2CB2454E27A7" import="1">Mongolia/mongollancer128.dds</File>
+    <File md5="3EA221DD2CE480467C4E7500E78CC407" import="1">Mongolia/mongollancer256.dds</File>
+    <File md5="3C2F6ED7BA0AE05E577D679BBB8B9D18" import="1">Mongolia/mongollancer45.dds</File>
+    <File md5="AE246859A9677CD09A21A5243A2062AC" import="1">Mongolia/mongollancer64.dds</File>
+    <File md5="174CEFEF30AEBF9C2D63C27C2178D374" import="1">Mongolia/mongollancer80.dds</File>
+    <File md5="DA2DA6F5DC29E14226B17ABE171556FE" import="0">Mongolia/mongollancerArt Define.sql</File>
+    <File md5="9679F868B3A88502B045538CBF91CD5D" import="0">Mongolia/Mongol_Lancer.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Mongolia/mongollancerArt Define.sql</UpdateDatabase>
+      <UpdateDatabase>Mongolia/Mongol_Lancer.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

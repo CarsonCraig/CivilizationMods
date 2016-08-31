@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="02e4858a-9642-4ceb-8fe4-ad367800d768" version="1">
+  <Properties>
+    <Name>Greek Peltast</Name>
+    <Teaser>Adds the Greek Peltast as a new unique unit.</Teaser>
+    <Description>Adds the Greek Peltast as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6190E75ACCC48F0D7D51C8D7B4C35517" import="0">Greece2/4UC_GREECE.sql</File>
+    <File md5="2FD0BE91B803328116E60890F82C8AD6" import="1">Greece2/Fx_Triggers_Javelineer_Rome.ftsxml</File>
+    <File md5="080B992019EF3EB0385FEDC0F4A987B3" import="1">Greece2/GreekPeltast128.dds</File>
+    <File md5="BB046ED498789B386A9A071A3EE8929C" import="1">Greece2/GreekPeltast256.dds</File>
+    <File md5="C97083404059EA606F75D0E5478CD2EA" import="1">Greece2/GreekPeltast45.dds</File>
+    <File md5="DF8663FAA451646B83C451B9146F2641" import="1">Greece2/GreekPeltast64.dds</File>
+    <File md5="38D0E35AF074144128B5A3A3A380EC03" import="1">Greece2/GreekPeltast80.dds</File>
+    <File md5="F9397AF5D0BE6802D735E6BC730814DB" import="1">Greece2/IconPelt32.dds</File>
+    <File md5="D4A2700EE139DCF00A1A8B773BB13579" import="1">Greece2/IconPeltSV.dds</File>
+    <File md5="3D6E2CC8EF7A8682311BC0ADDE01C846" import="1">Greece2/Javelineer_Rome.dds</File>
+    <File md5="12348B5582034E73A66CF1EF369D359B" import="1">Greece2/Javelineer_Rome.fxsxml</File>
+    <File md5="C29BE8E6DB65593C0CDE56D0349A98DC" import="1">Greece2/Javelineer_Rome.gr2</File>
+    <File md5="29152ED51165B99EA2D3A23D31CD9439" import="1">Greece2/Javelineer_Rome_gloss.dds</File>
+    <File md5="D460E260EF0F298175BFD90EB0644F8D" import="0">Greece2/GreekPelt.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Greece2/4UC_GREECE.sql</UpdateDatabase>
+      <UpdateDatabase>Greece2/GreekPelt.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="222bbbb0-19ed-49ae-85d3-ee9ef5761ad4" version="1">
+  <Properties>
+    <Name>American Saloon</Name>
+    <Teaser>Adds the American Saloon as a new unique building.</Teaser>
+    <Description>Adds the American Saloon as a new unique building.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="793B21F1986409C193934ED6B05B652D" import="0">America/Saloon.xml</File>
+    <File md5="C02739066D300D8B4D582CE0AE208B10" import="1">America/Saloon_Icon045.dds</File>
+    <File md5="5802B3384642BAB83BA8702CB94A7F4D" import="1">America/Saloon_Icon064.dds</File>
+    <File md5="149533252E0F0E28EE91F0A12CBE9480" import="1">America/Saloon_Icon128.dds</File>
+    <File md5="30BB33FC9EA2E5E3AFAC223B82D4EF6F" import="1">America/Saloon_Icon256.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>America/Saloon.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
