@@ -77,9 +77,9 @@ SELECT 'Any',							'Pillaged',				0.86,	'ART_DEF_IMPROVEMENT_PLANT_FOREST_3UC',
 -------------------------------------------------------------------------------------------------- 
 --Compatibility
 -------------------------------------------------------------------------------------------------- 
-CREATE TRIGGER ReforestationMod_01
-AFTER INSERT ON Units
-WHEN NEW.Class = 'UNITCLASS_WORKER' 
-BEGIN
-	INSERT INTO Unit_Builds (NEW.Type,	'BUILD_FOREST_3UC')
-END;
+-- CREATE TRIGGER ReforestationMod_01
+-- AFTER INSERT ON Units
+-- WHEN NEW.Class = 'UNITCLASS_WORKER' 
+-- BEGIN
+-- 	INSERT INTO Unit_Builds (NEW.Type,	'BUILD_FOREST_3UC')
+-- END;
