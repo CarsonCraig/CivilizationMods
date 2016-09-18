@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b7fe4693-7c29-4014-9641-7ca65841311f" version="1">
+  <Properties>
+    <Name>German Teutonic Knight</Name>
+    <Teaser>Adds the German Teutonic Knight as a new unique unit.</Teaser>
+    <Description>Adds the German Teutonic Knight as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="4E1E459066850553500E2750EA359C12" import="0">Germany/3UC_GERMANY.sql</File>
+    <File md5="68D971A9D268B7129E76CED82151247D" import="1">Germany/knightofteutons.fxsxml</File>
+    <File md5="EC90C065DD734F2832756FBA417B205B" import="1">Germany/sv_TK3.dds</File>
+    <File md5="0EAC43A1D00198CF0951CE58E6D50253" import="0">Germany/TeutonicKnight.xml</File>
+    <File md5="97A3AA71958A120EA826FB287AD4B624" import="1">Germany/teutonicknighticon.dds</File>
+    <File md5="FB55F5BABB41D7820B240BCB6806BFDF" import="1">Germany/Teutonic_Knight.gr2</File>
+    <File md5="7C91A30B5A81A7291057037F809B99C2" import="1">Germany/teutonic_knight_mounted_diff.dds</File>
+    <File md5="4F0A356DB9CAB321EB74FE13B37DA1BC" import="1">Germany/teutonic_knight_mounted_sref.dds</File>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">ICONS/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">ICONS/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">ICONS/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">ICONS/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">ICONS/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">ICONS/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">ICONS/IconAtlas256.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ICONS/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Germany/TeutonicKnight.xml</UpdateDatabase>
+      <UpdateDatabase>Germany/3UC_GERMANY.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

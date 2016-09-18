@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f96cb1a3-d7c8-4167-8707-6aa57b2b6ca0" version="1">
+  <Properties>
+    <Name>Russian IS-2</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Russian IS-2 as a new unique unit.</Teaser>
+    <Description>Adds the Russian IS-2 as a new unique unit.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="DFCF8FE0E40BDE8E10F0F75749FCC279" import="0">Russia/3Russia_tank.xml</File>
+    <File md5="FD20B91C4706E9A449F59A9845BA5C72" import="0">Russia/3Russia_tankDefine.sql</File>
+    <File md5="2875B2BC68B8459E30BF02D709B64DB7" import="1">Russia/3UC_IS2UnitFLag_32.dds</File>
+    <File md5="AC2CB2F9D3438EB8AB854AA0113F6436" import="1">Russia/3UC_sv_IS2.dds</File>
+    <File md5="85AB4585B630793A943A8EE6E074D4E7" import="1">Russia/3UC_USSRStalinAtlas_128.dds</File>
+    <File md5="388D86F60186D9BAF0E8336C9C7B47CA" import="1">Russia/3UC_USSRStalinAtlas_256.dds</File>
+    <File md5="AF2EF8A2A810F7C93702C4F1298BED5C" import="1">Russia/3UC_USSRStalinAtlas_32.dds</File>
+    <File md5="F7144CFCF34E1583993663A45209F338" import="1">Russia/3UC_USSRStalinAtlas_45.dds</File>
+    <File md5="A72F15AF03A49E335E0A4721A20BA330" import="1">Russia/3UC_USSRStalinAtlas_64.dds</File>
+    <File md5="87C732736A992A024FBC6FBA0B3BCAD4" import="1">Russia/3UC_USSRStalinAtlas_80.dds</File>
+    <File md5="30A7E7F484365CA73A5DD5E83B341F16" import="0">Russia/3UC_USSRStalinFunctions.lua</File>
+    <File md5="8367C9A93F0BE94F6CE505E451E430F9" import="1">Russia/IS-2.dds</File>
+    <File md5="73B07FC6A6029998D594ACE9CD5B9874" import="1">Russia/IS-2.fxsxml</File>
+    <File md5="442D349FE1AFC718A158364238654D51" import="1">Russia/IS-2.gr2</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Russia/no_gloss.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Russia/3Russia_tank.xml</UpdateDatabase>
+      <UpdateDatabase>Russia/3Russia_tankDefine.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

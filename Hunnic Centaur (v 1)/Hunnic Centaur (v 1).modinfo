@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="adc056c6-b67b-4033-93d0-404c7af7f54c" version="1">
+  <Properties>
+    <Name>Hunnic Centaur</Name>
+    <Teaser>Adds the Hunnic Centaur as a new unique unit.</Teaser>
+    <Description>Adds the Hunnic Centaur as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="E3709A10BE1C8FA9DE31D2E8F6EF5238" import="0">Hun3/4UC_HUNS.sql</File>
+    <File md5="EBA855474CCB7C92C068F1FEEE3E7513" import="1">Hun3/HorseArcher_Mongol.dds</File>
+    <File md5="D0ED4C6743DC6254B7FFC013B6C7254D" import="1">Hun3/HorseArcher_Mongol.fxsxml</File>
+    <File md5="BC2EC94F7FF3C4EC0E7CD605FC160027" import="1">Hun3/HorseArcher_Mongol.gr2</File>
+    <File md5="7EA3B6C9B6AFD3C3B14E48C5626FFBE7" import="1">Hun3/HorseArcher_Mongol_gloss.dds</File>
+    <File md5="ED76F6C0472BACA1DE4B269178C0501C" import="1">Hun3/HorseArcher_Mongol_Horse.dds</File>
+    <File md5="223CF7CC5371CE1562C3AEE4DE24D9B0" import="1">Hun3/HunArcher128.dds</File>
+    <File md5="37FE0F337F3A9F886B7DA6790DCEB84C" import="1">Hun3/HunArcher256.dds</File>
+    <File md5="343D2D29BF7E31758D551637FAE785E2" import="1">Hun3/HunArcher45.dds</File>
+    <File md5="77E696F59AB7F1AA4431318A84A9669B" import="1">Hun3/HunArcher64.dds</File>
+    <File md5="DDB0C0A1D79310B7274CE5FE532DEB3F" import="1">Hun3/HunArcher80.dds</File>
+    <File md5="05DE965EBAF24FB43E2E059518BD979C" import="0">Hun3/Hun_HorseArcher.xml</File>
+    <File md5="4F438E9D13A488206CB6585036946077" import="1">Hun3/IconCentaur32.dds</File>
+    <File md5="93F31D61EC91D6A76C5AF09E31C17999" import="1">Hun3/IconCentaurSV.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Hun3/no_gloss.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Hun3/Hun_HorseArcher.xml</UpdateDatabase>
+      <UpdateDatabase>Hun3/4UC_HUNS.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

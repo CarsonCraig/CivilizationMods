@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/16/2015 7:57:59 PM -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_TULIPS</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TULIPS</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TULIPS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TULIPS</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
+			<RequiresFlatlands>true</RequiresFlatlands>
+			<PillageGold>5</PillageGold>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TULIP_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TULIPS</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TULIPS</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>		
+	</Improvement_ValidTerrains>
+	
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TULIPS</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TULIPS</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_Yields>
+
+	<Policy_ImprovementYieldChanges>
+	<Row>
+		<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
+		<ImprovementType>IMPROVEMENT_TULIPS</ImprovementType>
+		<YieldType>YIELD_CULTURE</YieldType>
+		<Yield>1</Yield>
+	</Row>
+	</Policy_ImprovementYieldChanges>
+
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TULIPS</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>TULIP_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>DUTCHTULIPS256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TULIP_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>DUTCHTULIPS64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TULIP_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>DUTCHTULIPS45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TULIP_ATLAS_GOLD</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>DUTCHTULIPS256GOLD.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TULIP_ATLAS_GOLD</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>DUTCHTULIPS64GOLD.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<Builds>
+		<Row>
+			<Type>BUILD_TULIPS</Type>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<Time>600</Time>
+			<ImprovementType>IMPROVEMENT_TULIPS</ImprovementType>
+			<Description>TXT_KEY_BUILD_TULIPS</Description>
+			<Recommendation>TXT_KEY_BUILD_GOLD_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_T</HotKey>
+			<OrderPriority>95</OrderPriority>
+			<IconAtlas>TULIP_ATLAS</IconAtlas>
+			<IconIndex>0</IconIndex>
+		</Row>
+	</Builds>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_TULIPS</BuildType>
+		</Row>
+	</Unit_Builds>
+
+
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_TULIPS</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_TULIPS</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_TULIPS</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_TULIPS">
+			<Text>Tulips</Text>
+		</Row>
+		
+		<!-- Improvements -->
+		<Row Tag="TXT_KEY_BUILD_TULIPS">
+			<Text>Plant Tulips</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_TULIPS_TEXT">
+			<Text>
+				A Tulip tile generates 1 [ICON_GOLD] Gold and [ICON_CULTURE] Culture on flat Grassland and Plains tiles. Yields an additional 1 [ICON_GOLD] Gold upon the discovery of Economics and an additional 1 [ICON_CULTURE] upon finishing the Aesthetics policy tree.[NEWLINE][NEWLINE]During the Dutch Golden Age contract prices for bulbs of the recently introduced tulip reached extraordinarily high levels and then suddenly collapsed. At the peak of tulip mania, in March 1637, some single tulip bulbs sold for more than 10 times the annual income of a skilled craftsman. The tulip was different from every other flower known to Europe at that time, with a saturated intense petal color that no other plant had. The tulip bulb became the fourth leading export product of the Netherlands, after gin, herring and cheese.
+			</Text>
+		</Row>
+	</Language_en_US>
+	</GameData>

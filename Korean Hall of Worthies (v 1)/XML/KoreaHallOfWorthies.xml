@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+<!-- Adds the new Hall of Worthies -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HALL_OF_WORTHIES</Type>
+			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HALL_OF_WORTHIES</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HALL_OF_WORTHIES_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HALL_OF_WORTHIES_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_HALL_OF_WORTHIES_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_GARDEN</ArtDefineTag>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>HALL_OF_WORTHIES_ICON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_HALL_OF_WORTHIES</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HALL_OF_WORTHIES</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HALL_OF_WORTHIES</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_KOREA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<BuildingType>BUILDING_HALL_OF_WORTHIES</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HALL_OF_WORTHIES">
+			<Text>Hall of Worthies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HALL_OF_WORTHIES_HELP">
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HALL_OF_WORTHIES_STRATEGY">
+			<Text>Hall of Worthies is the Korean unique building. Unlike the Garden which it replaces, it increases the [ICON_RESEARCH] Science output of the city, has a Science Specialist slot, and does not require fresh water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HALL_OF_WORTHIES_TEXT">
+			<Text>
+				The Hall of Worthies or Jiphyeonjeon (Jip Hyun Jun) was set up by Sejong the Great of the Korean Joseon Dynasty in 1420. It consisted of scholars selected by the king.[NEWLINE][NEWLINE]The Hall participated in various scholarly endeavors, of which the best-known may be the compilation of the Hunmin Jeongeum, in which the hangul writing system was first formulated. Besides the invention of Hangul, the Hall of Worthies was involved in publication of numerous scholarly and scientific writings, which contributed to reputation of Sejong's reign as the golden age of Korean culture.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="49259c4f-057e-4902-9aed-4a5497917d84" version="1">
+  <Properties>
+    <Name>Indian Sepoy</Name>
+    <Teaser>Adds the Indian Sepoy as a new unique unit.</Teaser>
+    <Description>Adds the Indian Sepoy as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">ICONS/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">ICONS/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">ICONS/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">ICONS/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">ICONS/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">ICONS/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">ICONS/IconAtlas256.dds</File>
+    <File md5="A211472C2B6AEC456D7F31ED6E008455" import="1">India/3SEPOY128.dds</File>
+    <File md5="FCEA55DEA1E2E84C68D408D9A88DC04B" import="1">India/3SEPOY256.dds</File>
+    <File md5="74C52A1F8F7BE6FCD3419B921A19A22F" import="1">India/3SEPOY45.dds</File>
+    <File md5="8538379A54A7085C00C91CA0CEECB5FC" import="1">India/3SEPOY64.dds</File>
+    <File md5="E268560E48361D2341630EE3125CBAA0" import="1">India/3SEPOY80.dds</File>
+    <File md5="8BF62A9ED1A979425DAE2F6D553CE383" import="0">India/3UC_INDIA.sql</File>
+    <File md5="65453F824770AC4E7EDF0840AB43BBD6" import="1">India/flag_sepoy.dds</File>
+    <File md5="8607D969169F8A72CA1A5A1B6848B2F5" import="0">India/IndianSepoy.xml</File>
+    <File md5="C2C3B58C77034E5C0307EEC2B987B4AC" import="1">India/sepoy.fxsxml</File>
+    <File md5="EB64FD433391A97BB4B72CA9B4AC96F1" import="1">India/Sepoy.gr2</File>
+    <File md5="3367CC8D673E21E57D41BA488859EF3E" import="1">India/sepoy_1.gr2</File>
+    <File md5="1761185C7B241933589ACF6F43CDFD1B" import="1">India/sepoy_diff.dds</File>
+    <File md5="6A7F4156101AD4072032806F35316183" import="1">India/sv_sepoy.dds</File>
+    <File md5="E361EFFF3CC8A4FA50C7AD0598A84F15" import="1">India/u_maratha_sepoy.gr2</File>
+    <File md5="F325D00E47068AC2128B4E86CBE401F9" import="1">India/u_sepoy.gr2</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ICONS/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>India/IndianSepoy.xml</UpdateDatabase>
+      <UpdateDatabase>India/3UC_INDIA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

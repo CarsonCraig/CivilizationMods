@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6ac1872c-930b-43d9-b035-bbf19fce3f0f" version="1">
+  <Properties>
+    <Name>Siamese Sala</Name>
+    <Teaser>Adds the Siamese Sala as a new unique building.</Teaser>
+    <Description>Adds the Siamese Sala as a new unique building. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">ICONS/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">ICONS/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">ICONS/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">ICONS/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">ICONS/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">ICONS/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">ICONS/IconAtlas256.dds</File>
+    <File md5="C65120D728B91E1C927BABE3DA1F2434" import="0">Siam/3UC_SIAM.sql</File>
+    <File md5="765A7BA07D5AE4FE1F41E59B48C0BFC9" import="0">Siam/sala.xml</File>
+    <File md5="B4D81A55A9CB1BB4A30AB65A1BB86113" import="1">Siam/sala128.dds</File>
+    <File md5="6AC49D272A6E677B54A56315BB343979" import="1">Siam/sala256.dds</File>
+    <File md5="11729EE2DB749A0DCF2D87CD60D4F7CE" import="1">Siam/sala45.dds</File>
+    <File md5="A4E031B49D75851E0C432E3F325B45C8" import="1">Siam/sala64.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ICONS/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Siam/sala.xml</UpdateDatabase>
+      <UpdateDatabase>Siam/3UC_SIAM.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

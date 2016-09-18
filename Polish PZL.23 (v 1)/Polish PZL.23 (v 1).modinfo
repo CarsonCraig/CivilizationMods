@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bf01d365-2bc3-45c5-8408-d7b3fb483bb5" version="1">
+  <Properties>
+    <Name>Polish PZL.23</Name>
+    <Teaser>Adds the Polish PZL.23 as a new unique unit.</Teaser>
+    <Description>Adds the Polish PZL.23 as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="DD638F97805F487D955D4F1540B5128C" import="1">Poland/3UC_PolandPilsudskiAtlas_128.dds</File>
+    <File md5="291FA9753EB6A63CF90C6AC484B0BE04" import="1">Poland/3UC_PolandPilsudskiAtlas_256.dds</File>
+    <File md5="3B570ACB91607208E78EAE3B702BB080" import="1">Poland/3UC_PolandPilsudskiAtlas_32.dds</File>
+    <File md5="3585D7AD12A187993EA1C9941B86E711" import="1">Poland/3UC_PolandPilsudskiAtlas_45.dds</File>
+    <File md5="7F201CE2C5B470522503BFB259E8BED1" import="1">Poland/3UC_PolandPilsudskiAtlas_64.dds</File>
+    <File md5="7AEAB959143376B6DB03BFB70C9DE07B" import="1">Poland/3UC_PolandPilsudskiAtlas_80.dds</File>
+    <File md5="AB38579707D1265C5A369EAB1DF60ADC" import="1">Poland/3UC_PZL23UnitFlag_32.dds</File>
+    <File md5="3C22FAEF6881085CCE2640D83084D710" import="0">Poland/PolandPZL.sql</File>
+    <File md5="6FC27AF49FA90224EE7110932635BC28" import="0">Poland/PolandPZL.xml</File>
+    <File md5="BB0485CA529E93BA2C40A94453652F85" import="1">Poland/PZL_P.23_Karas.dds</File>
+    <File md5="D58F7F4B49C42F4533A8247600A3B415" import="1">Poland/PZL_P.23_Karas.fxsxml</File>
+    <File md5="3365AA88BE89516C6EA8628EA00293D9" import="1">Poland/PZL_P.23_Karas.gr2</File>
+    <File md5="C51D95D858C7892A61516E396FB59FCE" import="1">Poland/PZL_P.23_Karas_2.dds</File>
+    <File md5="24CF5004E9FB0E1D93CF6BEE2A5771E6" import="1">Poland/PZL_P.23_Karas_gloss.dds</File>
+    <File md5="29C2B84A76F2D1C06EBDE7FE86C9FFC7" import="1">Poland/3UC_sv_PZL23.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Poland/PolandPZL.sql</UpdateDatabase>
+      <UpdateDatabase>Poland/PolandPZL.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

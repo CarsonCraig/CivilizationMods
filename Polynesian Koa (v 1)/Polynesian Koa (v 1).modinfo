@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a5fde3e7-3661-44c3-8e10-20a96da91c66" version="1">
+  <Properties>
+    <Name>Polynesian Koa</Name>
+    <Teaser>Adds the Polynesian Koa as a new unique unit.</Teaser>
+    <Description>Adds the Polynesian Koa as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="50CE2591D0581D0C7035D25CCE2E3DA8" import="0">Polynesia/4UC_POLYNESIA.sql</File>
+    <File md5="816473957AA79CDC635A337CC838D0BD" import="1">Polynesia/hawaii_ikaika.fxsxml</File>
+    <File md5="C2AD90F157A7850255AB6118F9771BC1" import="1">Polynesia/hawaii_ikaika.gr2</File>
+    <File md5="4B287F1BF3990715DD536722531E8595" import="1">Polynesia/hawaii_ikaika_diff.dds</File>
+    <File md5="F0C52B17A20219287233D3049BBF928F" import="1">Polynesia/hawaii_ikaika_sref.dds</File>
+    <File md5="4D5EF692E4404CDDBB5DFB271D31FDC7" import="1">Polynesia/3UC_PolynesiaAlpha_32.dds</File>
+    <File md5="EFAAFE851525A884E3F11BF0FF84E854" import="1">Polynesia/3UC_Polynesia_128.dds</File>
+    <File md5="A3BA89135036EEF59BD4DD8AFBA47B11" import="1">Polynesia/3UC_Polynesia_256.dds</File>
+    <File md5="1E990EE084BC06A22220FE5AFAFB3656" import="1">Polynesia/3UC_Polynesia_45.dds</File>
+    <File md5="716DFB28D4261F78EFA9CCDEC2933DD7" import="1">Polynesia/3UC_Polynesia_64.dds</File>
+    <File md5="2F679DC71A70EBF0E83E8BDFCF6F938B" import="1">Polynesia/3UC_Polynesia_80.dds</File>
+    <File md5="064B1125C635888A9BB1FD7A08F54318" import="0">Polynesia/Polynesia_Units.xml</File>
+    <File md5="84999876DBB6B847F5B4DBF7D0A03E26" import="1">Polynesia/3UC_sv_Koa.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Polynesia/Polynesia_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Polynesia/4UC_POLYNESIA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

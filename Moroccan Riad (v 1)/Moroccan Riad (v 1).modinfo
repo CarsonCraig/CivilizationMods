@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f9460966-74c4-46e1-9c72-6685c769e02f" version="1">
+  <Properties>
+    <Name>Moroccan Riad</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Moroccan Riad as a new unique building.</Teaser>
+    <Description>Adds the Moroccan Riad as a new unique building.</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9B818BE223C5FF069F033FF158A1AA0B" import="0">Morocco/Riad.xml</File>
+    <File md5="2B4FCE0540BA01DAE6B8EF58ED5107B4" import="1">Morocco/Riad_Icon_045.dds</File>
+    <File md5="08D63A9DC6AD7E38B58DA5AFED01D7CE" import="1">Morocco/Riad_Icon_064.dds</File>
+    <File md5="3369A37362DD02193B0980AC9EA35583" import="1">Morocco/Riad_Icon_128.dds</File>
+    <File md5="57AF62DCA753F6A3A01BAD97894E3326" import="1">Morocco/Riad_Icon_256.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Morocco/Riad.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

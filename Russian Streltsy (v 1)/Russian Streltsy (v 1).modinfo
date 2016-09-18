@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="03270218-b327-4c63-84b4-f64878ecf172" version="1">
+  <Properties>
+    <Name>Russian Streltsy</Name>
+    <Teaser>Adds the Russian Streltsy as a new unique unit.</Teaser>
+    <Description>Adds the Russian Streltsy as a new unique unit.
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">ICONS/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">ICONS/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">ICONS/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">ICONS/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">ICONS/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">ICONS/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">ICONS/IconAtlas256.dds</File>
+    <File md5="903329E15892EF8D923BBA3F97C9A3E0" import="0">Russia/3UC_RUSSIA.sql</File>
+    <File md5="F5F878941E755790F21EB64BFBA7EC07" import="1">Russia/civ5_iromu1.fxsxml</File>
+    <File md5="F8F4FAB80A5F95CD8D605A5E137C650E" import="0">Russia/Streltsy.xml</File>
+    <File md5="8336AABF87430F53547F054E607F70B1" import="1">Russia/streltsy128.dds</File>
+    <File md5="776D749C8AC2E3834CBD6B8F35B600E8" import="1">Russia/streltsy256.dds</File>
+    <File md5="F150ED7BB504BC4786816757A8CCEA5F" import="1">Russia/streltsy45.dds</File>
+    <File md5="D6643FDC28EF14D3D8F36B32FAFF3863" import="1">Russia/streltsy64.dds</File>
+    <File md5="021839EF00B71278A7BC829AD6A34288" import="1">Russia/streltsy80.dds</File>
+    <File md5="31538E11484E600D07E898F7344746FE" import="1">Russia/streltsyicon.dds</File>
+    <File md5="C7F7EB1AC022FD78BE961964E1DEA8C4" import="1">Russia/Streltsy_Black_Cap.fxsxml</File>
+    <File md5="2EA40BFD7AF7627BA793049E3B0664EF" import="1">Russia/Streltsy_Black_Cap.gr2</File>
+    <File md5="2A0C026D48E7B55EF93400E820392D8C" import="1">Russia/Streltsy_Black_Cap_diff.dds</File>
+    <File md5="B2041FDFB299244D9DD31124F3F1701C" import="1">Russia/Streltsy_Black_Coat.fxsxml</File>
+    <File md5="F31464953C3AD2EB192D4BF60435029F" import="1">Russia/Streltsy_Black_Coat.gr2</File>
+    <File md5="2B14CAE9265AACD4759DEB6AA1CB4467" import="1">Russia/Streltsy_black_coat_diff.dds</File>
+    <File md5="AFA7199461B4CD914AC53EA437E199B5" import="1">Russia/Streltsy_blue_cap.fxsxml</File>
+    <File md5="9D3EA09EE5F6BA57C68D0C52FFC47523" import="1">Russia/Streltsy_blue_cap.gr2</File>
+    <File md5="B7A044DA451A610B2814768D64E3C377" import="1">Russia/Streltsy_blue_cap_diff.dds</File>
+    <File md5="416295D24E7C6B9F0415BC44F9679628" import="1">Russia/Streltsy_sref.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ICONS/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Russia/Streltsy.xml</UpdateDatabase>
+      <UpdateDatabase>Russia/3UC_RUSSIA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

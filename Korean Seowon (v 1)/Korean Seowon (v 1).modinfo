@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b06dedc4-b4eb-4b75-ad76-523f88937b5e" version="1">
+  <Properties>
+    <Name>Korean Seowon</Name>
+    <Teaser>Adds the Korean Seowon as a new unique building.</Teaser>
+    <Description>Adds the Korean Seowon as a new unique building. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">ICONS/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">ICONS/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">ICONS/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">ICONS/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">ICONS/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">ICONS/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">ICONS/IconAtlas256.dds</File>
+    <File md5="CF6A0DCFC837F0AC9B97A11CA7CF4912" import="0">Korea/3UC_KOREA.sql</File>
+    <File md5="5E98B27A52F3B78425F821E00F6BCD2C" import="0">Korea/Seowon.xml</File>
+    <File md5="9E32DBBCCC0AAA4D6DDC2F95E66ECC3A" import="1">Korea/Seowon_Icon045.dds</File>
+    <File md5="1C557D1DCF9194956FFDB4A076C9985B" import="1">Korea/Seowon_Icon064.dds</File>
+    <File md5="7DE6C6720768579FACEC015D0E419663" import="1">Korea/Seowon_Icon128.dds</File>
+    <File md5="CABA6B1DA1A96B106531C8087546B9CD" import="1">Korea/Seowon_Icon256.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ICONS/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Korea/Seowon.xml</UpdateDatabase>
+      <UpdateDatabase>Korea/3UC_KOREA.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="16dc7cd5-a1a0-44b5-8bd7-8a288691606a" version="1">
+  <Properties>
+    <Name>Zulu Isicathulo</Name>
+    <Teaser>Adds the Zulu Isicathulo as a new unique building.</Teaser>
+    <Description>Adds the Zulu Isicathulo as a new unique building. 
+
+More unique components are avaliable here: 
+steamcommunity.com/sharedfiles/filedetails/?id=743202441 
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D8AA530B924143534CEE90475495F455" import="0">Zulu/4UC_ZULU.sql</File>
+    <File md5="D1CCB9296C24820C4FB57332E3B50E73" import="0">Zulu/gumboot.xml</File>
+    <File md5="DA0EB52296A1DF7B02AC33EF7FC4EE5D" import="1">Zulu/GUMBOOT128.dds</File>
+    <File md5="6C75DC8D3B123051C16FA1C2EC32C028" import="1">Zulu/GUMBOOT256.dds</File>
+    <File md5="DC99D6744A0AFD76067CCB146A96A5A4" import="1">Zulu/GUMBOOT45.dds</File>
+    <File md5="D0E37D2CE923401D1B7003B779A92505" import="1">Zulu/GUMBOOT64.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Zulu/gumboot.xml</UpdateDatabase>
+      <UpdateDatabase>Zulu/4UC_ZULU.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

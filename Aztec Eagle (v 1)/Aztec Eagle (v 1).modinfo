@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="709c1dc8-2198-4424-911e-51bcea0adf74" version="1">
+  <Properties>
+    <Name>Aztec Eagle</Name>
+    <Teaser>Adds the Aztec Eagle as a new unique unit.</Teaser>
+    <Description>Adds the Aztec Eagle as a new unique unit.
+
+More unique components are avaliable here:
+steamcommunity.com/sharedfiles/filedetails/?id=743202441
+
+To display more than 2 unique components per civilization on the leader select screen, you must install the Enhanced User Interface. It is not installed like a normal mod. While not required for this mod, it is strongly recommended for every Civ player. It is available here: 
+forums.civfanatics.com/showthread.php?t=512263</Description>
+    <Authors>Vojuln</Authors>
+    <SpecialThanks>mikeburnfire</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="4A50921D55FE54B6BCEEE7C3BD1DDAE2" import="0">Aztecs/3UC_AZTEC.sql</File>
+    <File md5="309BCD9C48ABB4ED733609EDD7CED71F" import="0">Aztecs/Eagle.xml</File>
+    <File md5="546CF285A95B00BEBC0E26379ED2A0A6" import="1">Aztecs/eagleicon.dds</File>
+    <File md5="158D965EF0556833BC356A91DF5488DC" import="1">Aztecs/Eagle_Icon_032.dds</File>
+    <File md5="3CB78DC1AE210E420C97193AC44D7A38" import="1">Aztecs/Eagle_Icon_045.dds</File>
+    <File md5="D3787F93892E920CCAD01EA19F8ADE32" import="1">Aztecs/Eagle_Icon_064.dds</File>
+    <File md5="7DE75ABBC5F914EEF887A78BCBDC572C" import="1">Aztecs/Eagle_Icon_080.dds</File>
+    <File md5="65A43626182A7240040ADADDDCBEFE96" import="1">Aztecs/Eagle_Icon_128.dds</File>
+    <File md5="9781D23A2529A5DCDEB8B287B1383ADF" import="1">Aztecs/Eagle_Icon_256.dds</File>
+    <File md5="3EE647487CF8A0B2A76ACA7AE07E1958" import="1">Aztecs/Pikeman_Aztec.dds</File>
+    <File md5="7856500391862A8372F79B871C6790F1" import="1">Aztecs/Pikeman_Aztec.fxsxml</File>
+    <File md5="22C12B0DA33CB1566F9AD8ECE5041E68" import="1">Aztecs/Pikeman_Aztec.gr2</File>
+    <File md5="264DB95B51EE95A4E2D6DEECCCF3FC4E" import="1">Aztecs/Pikeman_Aztec_gloss.dds</File>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">ICONS/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">ICONS/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">ICONS/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">ICONS/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">ICONS/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">ICONS/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">ICONS/IconAtlas256.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ICONS/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Aztecs/Eagle.xml</UpdateDatabase>
+      <UpdateDatabase>Aztecs/3UC_AZTEC.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
