@@ -1,1 +1,2 @@
-*.lua linguist-language=PLSQL
+*.lua linguist-language=SQL
+*.sql linguist-language=SQL
